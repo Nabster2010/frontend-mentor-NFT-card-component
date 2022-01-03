@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lateef&family=Outfit:wght@300;400;600&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              mainBG: "hsl(217, 54%, 11%)",
+              cardBG: "hsl(216, 50%, 16%)",
+              line: "hsl(215, 32%, 27%)",
+              white: "hsl(0, 0%, 100%)",
+              softBlue: "hsl(215, 51%, 70%)",
+              cyan: "hsl(178, 100%, 50%)",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: "Outfit", sans-serif;
+        background-color: hsl(217, 54%, 11%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-cardBG w-80 rounded-xl h-fit">
+      <div class="p-4">
+        <img
+          src="./images/image-equilibrium.jpg"
+          alt="img"
+          class="rounded-xl object-cover block max-w-full max-h-80"
+        />
+        <div class="py-4">
+          <h1 class="text-white text-base pb-4">Equilibrium #3429</h1>
+          <p class="text-softBlue text-sm font-light">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+        </div>
+        <div class="flex justify-between pb-4">
+          <div class="flex items-center">
+            <div>
+              <img src="./images/icon-ethereum.svg" alt="icon" class="pr-2" />
+            </div>
+            <span class="text-cyan text-xs font-bold">0.041ETH</span>
+          </div>
+          <div class="flex items-center">
+            <div>
+              <img src="./images/icon-clock.svg" alt="icon" class="pr-2" />
+            </div>
+            <span class="text-softBlue text-xs">3 days left</span>
+          </div>
+        </div>
+        <div class="border-b-[1px] border-line"></div>
+        <div class="flex items-center py-2">
+          <img
+            src="./images/image-avatar.png"
+            alt="avatar"
+            class="rounded-full w-10 h-10 border border-white"
+          />
+          <span class="text-softBlue text-xs pl-2">Creation of</span>
+          <span class="text-white text-[13px] pl-1">Jules Wyvern</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
