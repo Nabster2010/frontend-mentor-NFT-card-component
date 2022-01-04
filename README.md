@@ -13,7 +13,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github repo](https://github.com/Nabster2010/frontend-mentor-NFT-card-component)
+- Live Site URL: [live site](https://nabster2010.github.io/frontend-mentor-NFT-card-component/)
 
 ## My process
 
