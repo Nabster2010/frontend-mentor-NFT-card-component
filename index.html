@@ -48,13 +48,40 @@
   <body>
     <div class="bg-cardBG w-80 rounded-xl h-fit">
       <div class="p-4">
-        <img
-          src="./images/image-equilibrium.jpg"
-          alt="img"
-          class="rounded-xl object-cover block max-w-full max-h-80"
-        />
+        <div class="bg-white rounded-xl relative w-fit h-fit group">
+          <div
+            class="
+              absolute
+              inset-0
+              bg-cyan
+              rounded-xl
+              opacity-0
+              group-hover:opacity-70
+              transition-opacity
+            "
+          ></div>
+          <img
+            src="./images//icon-view.svg"
+            alt="view"
+            class="
+              opacity-0
+              group-hover:opacity-100
+              absolute
+              top-1/2
+              left-1/2
+              -translate-x-1/2 -translate-y-1/2
+            "
+          />
+          <img
+            src="./images/image-equilibrium.jpg"
+            alt="img"
+            class="object-cover block max-w-full max-h-80 rounded-xl"
+          />
+        </div>
         <div class="py-4">
-          <h1 class="text-white text-base pb-4">Equilibrium #3429</h1>
+          <h1 class="text-white text-base pb-4 hover:text-cyan">
+            Equilibrium #3429
+          </h1>
           <p class="text-softBlue text-sm font-light">
             Our Equilibrium collection promotes balance and calm.
           </p>
@@ -81,7 +108,9 @@
             class="rounded-full w-10 h-10 border border-white"
           />
           <span class="text-softBlue text-xs pl-2">Creation of</span>
-          <span class="text-white text-[13px] pl-1">Jules Wyvern</span>
+          <span class="text-white text-[13px] pl-1 hover:text-cyan"
+            >Jules Wyvern</span
+          >
         </div>
       </div>
     </div>
